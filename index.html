@@ -8,28 +8,29 @@
 </head>
 <body>
     <header>
-        <h1>Async Weather Trackert</h1>
+        <h1>Async Weather Tracker</h1>
     </header>
     <main>
         <section id="sec01">
-            <label for="title">Search City</label>
+            <label for="cityInput">Search City</label>
             <div>
-                <input type="text" id="title">
-                <button id="addbtn">Search</button>
+                <input type="text" id="cityInput">
+                <button onclick="getWeather()">Search</button>
             </div>
             <h2>Search History</h2>
+            <div class="history"></div>
         </section>
         <section id="sec02">
             <h2>Weather Info</h2>
-            <div id="container">
+            <div id="weatherInfo">
 
             </div>
         </section>
     </main>
     <footer>
         <h2>Console - Event Loop</h2>
-        <div>
-            
+        <div id="consoleBox">
+
         </div>
     </footer>
 </body>
