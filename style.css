@@ -116,3 +116,41 @@ footer {
 footer div {
     background-color: rgb(3, 15, 61);
 }
+
+
+#consoleBox {
+    min-height: 100px;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.weather-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-left: 8px solid rgb(179, 120, 9);
+    background: #f1f1f1;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.weather-row span:first-child {
+    font-weight: bold;
+}
+
+.history button {
+    background: rgb(245, 176, 46);
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin-right: 6px;
+    margin-top: 6px;
+    cursor: pointer;
+    height: auto;
+    font-size: 14px;
+    flex: none;
+    margin-left: 0;
+}
