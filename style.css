@@ -1,0 +1,118 @@
+body {
+    height: 100vh;
+    background: rgb(3, 15, 61);
+}
+header{
+    color: rgb(112, 183, 255);
+    text-align: center;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+#sec01 {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 260px;
+}
+
+
+label {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    /* margin-top: 10px; */
+}
+
+#sec01 div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sec02 h2 {
+    margin-top: 0;
+}
+
+input, select, textarea{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px rgb(85, 189, 240) solid;
+    /* min-width: 300px; */
+    width: auto;
+    flex: 3;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button {
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: rgb(196, 112, 3);
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px;
+    flex: 1;
+}
+
+#sec02 {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    flex: 1;
+    min-width: 260px;
+}
+
+#sec02btn {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+}
+
+#container {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 10px auto;
+    gap: 10px;
+}
+
+.allrecord {
+    height: 125px;
+    width: 125px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+}
+
+footer {
+    margin: 20px auto;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    min-width: 260px;
+    max-width: 850px;
+
+}
+
+footer div {
+    background-color: rgb(3, 15, 61);
+}
